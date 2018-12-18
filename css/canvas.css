@@ -4,6 +4,8 @@
     left: 0;
 }
 #canvas-area canvas {
+    width: 800px;
+    height: 600px;
     position: absolute;
     top: 0;
     left: 0;

@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <title>canvas tutorial</title>
     <link rel="stylesheet" type="text/css" href="css/canvas.css" media="all" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/myCanvas.js"></script>
   </head>
   <body>
     <div id="canvas-area">
       <canvas id="base-layer"></canvas>
       <canvas id="layer2"></canvas>
-      <script type="text/javascript" src="js/myCanvas.js"></script>
+      <script>
+        $(function() {
+          var base = new baseLayer("base-layer");
+          base.drawGrid(1000, 600);
+        });
+      </script>
     </div>
   </body>
 </html>

@@ -1,0 +1,11 @@
+#canvas-area {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#canvas-area canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid 1px #000;
+}

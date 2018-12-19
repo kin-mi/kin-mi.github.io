@@ -2,12 +2,15 @@
     position: relative;
     top: 0;
     left: 0;
+    height: 650px;
 }
 #canvas-area canvas {
-    width: 1000px;
-    height: 600px;
     position: absolute;
     top: 0;
     left: 0;
     border: solid 1px #000;
+}
+#input-area {
+    position: absolute;
+    bottom: 0;
 }
